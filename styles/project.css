@@ -79,5 +79,5 @@ p.fixed {
     right: 0;
     border: 3px solid fuchsia;
     background-color: lightcoral;
-    padding-bottom: 20px 1.5em;
+    padding: 20px;
 }
