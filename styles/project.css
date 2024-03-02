@@ -29,6 +29,10 @@ header h2 {
     text-indent: 30px;
 
 }
+header {
+    clear: both;
+    border-bottom: 2px solid aqua;   
+}
 header img {
     float: left;
     margin-left: 2em;
@@ -41,7 +45,7 @@ article {
     width: 70%;
     float: left;
     column-count: 2;
-    column-rule: 2px dotted blue;
+    column-rule: 2px dotted fuchsia;
     column-gap: 2em;
     margin-left: 2em;
 }
@@ -64,7 +68,7 @@ aside {
     float: right;
     background-color: pink;
     padding: 20px;
-    
+
 }
 footer {
     clear: both;
