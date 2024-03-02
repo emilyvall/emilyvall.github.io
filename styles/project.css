@@ -38,6 +38,13 @@ header {
     clear: both;
     border-bottom: 2px solid aqua;   
 }
+main { 
+    height: 350px;     
+    width: 600px;
+    float: left;
+    border-right: 2px solid aqua; 
+}
+
 
 .shadow {
     text-shadow: 2px 2px 2px rgb(128, 0, 0);
