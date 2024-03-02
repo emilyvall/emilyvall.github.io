@@ -33,11 +33,11 @@ header h2 {
 header img {
     float: left;
     margin-left: 20px;
-}
-header {
+    
     clear: both;
-    border-bottom: 4px solid aqua;   
+    border-bottom: 2px solid aqua; 
 }
+
 main { 
     height: 350px;     
     width: 600px;
