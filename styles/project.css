@@ -64,8 +64,7 @@ aside {
     float: right;
     background-color: pink;
     padding: 20px;
-    clear: both;
-    border-top: 2px solid aqua;
+    
 }
 footer {
     clear: both;
