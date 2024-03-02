@@ -29,14 +29,16 @@ header h2 {
     text-indent: 30px;
 
 }
-header {
-    clear: both;
-    border-bottom: 2px solid aqua;   
-}
+
 header img {
     float: left;
     margin-left: 2em;
 }
+header {
+    clear: both;
+    border-bottom: 2px solid aqua;   
+}
+
 .shadow {
     text-shadow: 2px 2px 2px rgb(128, 0, 0);
 }
