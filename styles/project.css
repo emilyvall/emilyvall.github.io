@@ -33,9 +33,10 @@ header h2 {
 header img {
     float: left;
     margin-left: 20px;
-    
+}
+header {
     clear: both;
-    border-bottom: 2px solid aqua; 
+    border-bottom: 2px solid aqua;   
 }
 
 main { 
