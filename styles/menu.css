@@ -1,11 +1,17 @@
-<nav id="nav_menu">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="project4.html">Project A</a></li> 
-        <li><a href="menu.html" class="current">Project B</a></li> 
-        <li><a href="idk" class="lastitem">About Us</a></li>
-    </ul>
-</nav>
+#nav_menu ul {
+    list-style-type: none;
+    padding: 1em 0;    /* padding above and below li
+                          elements */
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black; }
+#nav_menu ul li {
+    display: inline;
+    padding: 0 1.5em; }
+#nav_menu ul li a {
+    font-weight: bold;
+    color: blue; }
+#nav_menu ul li a.current { text-decoration: none; }
 
 #nav_menu ul { list-style-type: none; }
 #nav_menu ul li { float: left; }
@@ -16,7 +22,7 @@
     padding: 1em 0;      /* padding above and below a
                             elements */
     text-decoration: none;
-    background-color: pink;
+    background-color: blue;
     color: white;
     font-weight: bold;
     border-right: 2px solid white; }
