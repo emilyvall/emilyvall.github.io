@@ -1,0 +1,110 @@
+#nav_menu ul { list-style-type: none; }
+#nav_menu ul li { float: left; }
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0;    
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-right: 2px solid white; }
+#nav_menu ul li a.lastitem { border-right: none; }	
+#nav_menu ul li a.current { color: yellow; }
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #e735c1;
+    width: 95%;
+    margin: 15px auto;
+}
+
+/* Menu bar styles */
+nav {
+    background-color: #fcc874;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Article styles */
+article {
+    width: 75%;
+    float: left;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Text wrapping around the image */
+article .wrap-text {
+    float: right;
+    margin-left: 15px;
+}
+
+/* Special styling for the first letter of each paragraph */
+.special-text {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+/* Aside styles */
+aside {
+    width: 20%;
+    float: left;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+}
+
+aside ul {
+    list-style-type: square;
+}
+
+/* Footer styles */
+footer {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background-color: #b569ef;
+    color: #fff;
+}
+
+/* Lines as shown in the screenshot */
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+/* Additional styles for the entire page */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
