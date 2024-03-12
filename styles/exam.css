@@ -24,7 +24,7 @@ body {
 
 /* Menu bar styles */
 nav {
-    background-color: #fcc874;
+    background-color: lightpink;
     padding: 10px;
 }
 
@@ -39,7 +39,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: lightpink;
     font-weight: bold;
 }
 
@@ -76,7 +76,7 @@ aside {
     top: 0;
     right: 0;
     height: 100%;
-    background-color: #f4f4f4;
+    background-color: lightpink;
     overflow-y: auto;
 }
 
@@ -90,14 +90,14 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #b569ef;
-    color: #fff;
+    color: lightpink;
 }
 
 /* Lines as shown in the screenshot */
 hr {
     margin: 20px 0;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid lightpink;
 }
 
 /* Additional styles for the entire page */
