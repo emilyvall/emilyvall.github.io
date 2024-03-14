@@ -30,10 +30,7 @@ html {
 }
 
 /* Menu bar styles */
-nav {
-    background-color: lightpink;
-    padding: 10px;
-}
+
 
 nav ul {
     list-style: none;
