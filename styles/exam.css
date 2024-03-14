@@ -22,6 +22,10 @@ body {
     margin: 15px auto;
 }
 
+html {
+    background-image: linear-gradient(to left, white 0%, rgb(122, 122, 248) 100%);
+}
+
 /* Menu bar styles */
 nav {
     background-color: lightpink;
