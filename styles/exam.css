@@ -72,9 +72,9 @@ article::before {
 }
 
 article img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
 
 /* Text wrapping around the image */
