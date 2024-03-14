@@ -58,9 +58,9 @@ article {
     margin-left: 2em;
 }
 article::before {
-    clear: left;
+    clear: right;
     width: 70%;
-    float: left;
+    float: right;
     column-count: 2;
     column-rule: 2px dotted fuchsia;
     column-gap: 2em;
