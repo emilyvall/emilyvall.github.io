@@ -75,9 +75,12 @@ article .wrap-text {
 
 /* Aside styles */
 aside {
-    width: 20%;
-    float: right;
-    background-color: lightpink;
+    width: auto;
+    position: fixed;
+    bottom: 20%;
+    right: 0;
+    border: 3px solid fuchsia;
+    background-color: lightcoral;
     padding: 20px;
 }
 
