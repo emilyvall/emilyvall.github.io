@@ -60,6 +60,16 @@ article {
     column-gap: 2em;
     margin-left: 2em;
 }
+article::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background-color: fuchsia;
+    transform: translateX(-50%);
+}
 
 article img {
     width: 100%;
