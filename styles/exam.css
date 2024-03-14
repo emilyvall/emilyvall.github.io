@@ -64,7 +64,7 @@ article {
 article {
     clear: left;
     width: 70%;
-    float: right;
+    float: left;
     column-count: 3;
     column-rule: 2px dotted fuchsia;
     column-gap: 2em;
