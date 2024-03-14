@@ -43,10 +43,15 @@ nav a {
     font-weight: bold;
 }
 
-/* Article styles */
+
 article {
-    width: 75%;
+    clear: left;
+    width: 70%;
     float: left;
+    column-count: 2;
+    column-rule: 2px dotted fuchsia;
+    column-gap: 2em;
+    margin-left: 2em;
 }
 
 article img {
