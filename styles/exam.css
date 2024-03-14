@@ -13,9 +13,9 @@
 #nav_menu ul li a.lastitem { border-right: none; }	
 #nav_menu ul li a.current { color: yellow; }
 /* Global styles */
-h1 {
+article {
     clear: both;
-    border-top: 2px solid aqua;   
+    border-bottom: 2px solid aqua;   
 }
 body {
     font-family:Arial, Helvetica, sans-serif;
