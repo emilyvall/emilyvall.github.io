@@ -64,7 +64,7 @@ article::before {
     column-count: 2;
     column-rule: 2px dotted fuchsia;
     column-gap: 2em;
-    margin-left: 2em;
+    margin-right: 2em;
 }
 
 article img {
