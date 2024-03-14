@@ -110,6 +110,10 @@ footer {
     clear: both;
     border-top: 2px solid aqua;  
 }
+footer p.copyright {
+    text-align: center;
+    font-size: 80%;
+}
 
 /* Lines as shown in the screenshot */
 hr {
