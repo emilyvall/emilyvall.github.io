@@ -115,6 +115,10 @@ footer p.copyright {
     font-size: 80%;
 }
 
+footer a._blank {
+    text-align: center;
+    font-size: 80%;
+}
 /* Lines as shown in the screenshot */
 hr {
     margin: 20px 0;
