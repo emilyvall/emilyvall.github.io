@@ -71,13 +71,9 @@ article .wrap-text {
 /* Aside styles */
 aside {
     width: 20%;
-    float: left;
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100%;
+    float: right;
     background-color: lightpink;
-    overflow-y: auto;
+    padding: 20px;
 }
 
 aside ul {
