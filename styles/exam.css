@@ -61,14 +61,13 @@ article {
     margin-left: 2em;
 }
 article::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    width: 2px;
-    background-color: fuchsia;
-    transform: translateX(-50%);
+    clear: left;
+    width: 70%;
+    float: left;
+    column-count: 2;
+    column-rule: 2px dotted fuchsia;
+    column-gap: 2em;
+    margin-left: 2em;
 }
 
 article img {
