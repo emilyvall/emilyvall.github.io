@@ -61,11 +61,11 @@ article {
     column-gap: 2em;
     margin-left: 2em;
 }
-article::before {
-    clear: right;
+article {
+    clear: left;
     width: 70%;
     float: right;
-    column-count: 2;
+    column-count: 3;
     column-rule: 2px dotted fuchsia;
     column-gap: 2em;
     margin-right: 2em;
