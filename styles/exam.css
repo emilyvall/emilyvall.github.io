@@ -27,7 +27,7 @@ nav ul {
 body {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 90%;
+    width: 95%;
     background-color: white;
     margin: 15px auto;
     padding: 15px 1.5em;
@@ -61,7 +61,7 @@ nav a {
 
 article {
     clear: left;
-    width: 70%;
+    width: 75%;
     float: left;
     column-count: 2;
     column-rule: 2px dotted aqua;
@@ -70,7 +70,7 @@ article {
 }
 article {
     clear: left;
-    width: 70%;
+    width: 75%;
     float: left;
     column-count: 3;
     column-rule: 2px dotted aqua;
