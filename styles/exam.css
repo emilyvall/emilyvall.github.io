@@ -14,7 +14,7 @@
 #nav_menu ul li a.current { color: yellow; }
 /* Global styles */
 
-title {
+#nav_menu {
     border-top: 2px solid aqua;
     height: 100%; /* Set height to 100% */
     margin-bottom: 0; /* Reset margin */
