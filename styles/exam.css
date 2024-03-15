@@ -29,7 +29,7 @@ body {
 }
 
 html {
-    background-image: linear-gradient(to left, white 0%, rgb(122, 122, 248) 100%);
+    background-image: linear-gradient(to left, white 0%, rgb(232, 157, 232) (122, 122, 248) 100%);
 }
 
 /* Menu bar styles */
@@ -56,7 +56,7 @@ article {
     width: 70%;
     float: left;
     column-count: 2;
-    column-rule: 2px dotted fuchsia;
+    column-rule: 2px dotted aqua;
     column-gap: 2em;
     margin-left: 2em;
 }
@@ -65,7 +65,7 @@ article {
     width: 70%;
     float: left;
     column-count: 3;
-    column-rule: 2px dotted fuchsia;
+    column-rule: 2px dotted aqua;
     column-gap: 2em;
     margin-right: 2em;
 }
