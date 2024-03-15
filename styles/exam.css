@@ -15,7 +15,7 @@
 /* Global styles */
 #nav_menu {
     clear: both;
-    border-bottom: 2px solid aqua;   
+    border-top: 2px solid aqua;   
 }
 body {
     font-family:Arial, Helvetica, sans-serif;
@@ -108,17 +108,18 @@ aside ul {
 /* Footer styles */
 footer {
     clear: both;
-    border-top: 2px solid aqua;  
-}
-footer p.copyright {
-    text-align: center;
-    font-size: 80%;
-}
+    border-top: 2px solid aqua; 
+} 
+    footer {
+        text-align: center; /* Align content horizontally */
+    }
+    
+    footer p,
+    footer a {
+        display: inline-block; /* Display elements in a line */
+    }
 
-footer a {
-    text-align: center;
-    font-size: 80%;
-}
+
 /* Lines as shown in the screenshot */
 hr {
     margin: 20px 0;
