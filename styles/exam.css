@@ -14,7 +14,7 @@
 #nav_menu ul li a.current { color: yellow; }
 /* Global styles */
 #nav_menu {
-    border-bottom: 2px solid aqua; 
+    border-top: 2px solid aqua; 
 }
 body {
     font-family:Arial, Helvetica, sans-serif;
@@ -94,7 +94,7 @@ aside {
     width: 20%;
     position: fixed;
     bottom: 20%;
-    right: 40%;
+    right: 10%;
     border: 3px solid fuchsia;
     background-color: lightpink;
     padding: 20px;
