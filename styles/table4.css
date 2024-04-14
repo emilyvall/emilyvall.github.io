@@ -24,3 +24,7 @@ table.second th, table.second td {
     vertical-align: middle;
     border: 2px solid purple;
 }
+table.second thead tr:first-child{     
+    border-bottom: 2px solid purple;
+}
+
