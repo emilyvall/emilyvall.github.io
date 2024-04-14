@@ -27,40 +27,12 @@ table.second th, table.second td {
 table.second thead tr:first-child{     
     border-bottom: 2px solid purple;
 }
+.
+table.third th {
+    background-color: lightgreen;
+}
 
-/* General styling */
-table.third {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  th, td {
-    padding: 8px;
-    text-align: left;
-  }
-  
-  /* Align Category numbers to the top */
-  th, td {
-    vertical-align: top;
-  }
-  
-  /* Border styling */
-  table.third {
-    border: 2px solid black;
-  }
-  
-  table.third thead tr:first-child {
-    border-top: 2px solid orangered;
-  }
-  
-  table.third tbody tr:last-child {
-    border-bottom: 2px solid orangered;
-  }
-  
-  table.third tbody tr:not(:last-child) {
-    border-bottom: 1px solid black;
-  }
-  
+
 
 @media only screen and (max-width: 425px) {
     th, td {
