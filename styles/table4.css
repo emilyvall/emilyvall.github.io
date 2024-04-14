@@ -31,6 +31,9 @@ table.second thead tr:first-child{
 table.third th {
     background-color: lightgreen;
 }
+table.third thead tr:first-child {
+    border-top: 2px solid orangered; 
+}
 
 
 
